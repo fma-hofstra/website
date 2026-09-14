@@ -95,8 +95,7 @@ Then open index.html in your browser.
 
 For the best development experience, the site can also be served using a local development server such as VS Code Live Server.
 
-
-Deployment
+## Deployment
 
 The website can be deployed using GitHub Pages.
 
@@ -108,7 +107,7 @@ Save the configuration.
 
 GitHub will generate a public URL for the website.
 
-Future Development
+## Future Development
 
 Potential future improvements include:
 
@@ -144,7 +143,7 @@ This repository supports the FMA at Hofstra chapter website.
 
 Future executive board members maintaining the website should carefully review JavaScript data objects before committing changes. Because the site dynamically renders several sections from JavaScript, a syntax error in a data object can prevent multiple sections from rendering.
 
-When making updates:
+## When making updates:
 
 Create or update the appropriate content entry.
 Verify JavaScript syntax.
