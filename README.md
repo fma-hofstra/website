@@ -95,6 +95,7 @@ Then open index.html in your browser.
 
 For the best development experience, the site can also be served using a local development server such as VS Code Live Server.
 
+
 Deployment
 
 The website can be deployed using GitHub Pages.
