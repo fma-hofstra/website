@@ -743,7 +743,7 @@ document.getElementById('offerGrid').innerHTML = OFFERINGS.map(o=>`
 
 /* ---------- EVENTS (upcoming / past toggle, click for detail, RSVP -> Get Involved, add to calendar) ---------- */
 function formatDate(iso){ const d=new Date(iso+'T00:00:00'); if(isNaN(d)) return {day:'--',mon:'---'}; return {day:d.getDate(), mon:d.toLocaleString('en-US',{month:'short'}).toUpperCase()}; }
-function isPastEvent(ev){ const d = new Date(ev.date+'T23:59:59'); return d < new Date(); }
+function isPastEvent(ev){ const d = new Date(ev.date+'T20:00:01'); return d < new Date(); }
 function tagClass(tag){
   const t=(tag||'').toLowerCase();
   if(t.includes('open')) return 'tag-open';
